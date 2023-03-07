@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img class="funes" src="../img/logo_funes.png" alt="Logo empresa"> 
+                    </a>
+                    
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../paginas/productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="../paginas/quienesSomos.html">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="../paginas/contacto.html">Contacto</a>
+                </li>
+                <li >
+                    <a href="../paginas/login.html">Iniciar Sesión</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    
+    <div class="titulo">
+        <h1 class="contacto">
+            Ponte en contacto con nosotros 
+        </h1>
+    </div>
+    <div class="llenar">
+        <p>Llena el formulario para poder ponerte en contacto con la empresa directamente y poder resolver todas tus dudas</p>
+    </div>
+
+    <main>
+        <section class="formulario">
+            <fieldset>
+                <legend>Contacto directo</legend>
+                <form action="correo">
+                    <div class="datos">
+                        <br>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" required placeholder="Ingrese su Nombre....">
+
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" required placeholder="Ingrese su Apellido....">
+                    </div>
+                    <br>
+                    <div class="correo">
+                        <label for="correo">Correo Electronico</label>
+                        <input type="text" name="correo" required placeholder="Ingrese su email...">
+                    </div>
+                    <br>
+                    <div class="mensaje">
+
+                        <label for="comentario">Escriba su consulta al respecto</label>
+                        <br>
+                        <textarea name="comentario" id="" cols="50" rows="15"></textarea>
+    
+                    </div>
+
+                    <div class="botones">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+
+                    </div>
+                    <br>
+
+
+                </form>
+
+            </fieldset>
+        </section>
+    </main>
+
+
+
+
+
+</body>
+<footer>
+    <div>
+        <p>Todos los derechos reservados</p>
+    </div>
+
+</footer>
+</html>
